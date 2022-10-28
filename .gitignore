@@ -1,0 +1,36 @@
+.DS_Store
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+env
+build
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#Electron-builder output
+/dist_electron
+
+test.py
+
+#image
+\number_template_img_*
+\template_image_bin
+\input_image
+\test_result_img
+src/assets/bin.png
